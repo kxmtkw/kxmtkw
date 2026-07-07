@@ -24,11 +24,13 @@ from universe.planets.earth import Pakistan
 
 class Haseeb(Human):
 
+
 	def __init__(self):
 		self.name     = "A. Haseeb Khalid"
 		self.age      = "{age}"
 		self.location = Pakistan.Lahore
 
+		
 	def hobbies(self) -> list[str]:
 		return [
 			{',\n			'.join(hobbies)}
@@ -71,7 +73,6 @@ with open("profile_code.svg", "w") as f:
 print(">> Written Readme")
 
 print(">> Pushing to github")
-
 
 subprocess.run("git add .", shell=True, capture_output=True)
 subprocess.run(f"git commit -m {datetime.now().strftime('%d/%m/%y')}", shell=True, capture_output=True)
