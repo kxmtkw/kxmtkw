@@ -1,1 +1,1 @@
-![Profile Code](profile_code.svg)
+<img src="profile_code.svg" width="600" height="1000" alt="Developer Profile">
