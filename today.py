@@ -51,7 +51,7 @@ class Haseeb(Human):
 
     def contactInfo(self) -> dict[str, str]:
         return {{
-            {',\n'.join(contact_rows)}
+            {',\n            '.join(contact_rows)}
         }}
 
 
