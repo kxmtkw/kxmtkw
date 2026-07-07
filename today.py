@@ -63,7 +63,7 @@ if __name__ == "__main__":
 ```
 """
 
-with open("readme.md", "w") as file:
+with open("README.md", "w") as file:
 	file.write(readme)
 
 print(">> Written Readme")

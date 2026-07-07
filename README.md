@@ -1,17 +1,57 @@
 
-### Uhh...
-I'm Haseeb. 18 years old. Loves computers and systems. Nothing else worth knowing about.
+```python
+from universe.organisms import Human
+from universe.planets.earth import Pakistan
 
-### I know...
 
-#### `Linux`
-I use Arch btw.
+class Haseeb(Human):
 
-#### `C`
-My fav programming language!
 
-#### `C++`
-Yeah.
+	def __init__(self):
+		self.name     = "A. Haseeb Khalid"
+		self.age      = "17 Years, 11 Months, 29 Days"
+		self.location = Pakistan.Lahore
 
-#### `Python`
-Pretty cool
+
+	def hobbies(self) -> list[str]:
+		return [
+			'Learning about computers',
+			'Losing in chess',
+			'Procrastinating'
+		]
+
+
+	def expertise(self) -> list[str]:
+		return [
+			'Low level programming',
+			'Systems design and architecture',
+			'Automating stuff because I am lazy'
+		]
+
+
+	def technologies(self) -> list[str]:
+		return [
+			'c',
+			'c++',
+			'python',
+			'linux',
+			'git'
+		]
+
+
+	def contactInfo(self) -> dict[str, str]:
+		return {
+			'mail'    : 'abdulhaseeb.8j@gmail.com',
+			'discord' : 'kxmtkw',
+			'insta'   : 'haseebolall'
+		}
+
+
+def main():
+	haseeb = Haseeb()
+	haseeb.live()
+
+
+if __name__ == "__main__":
+	main()
+```
