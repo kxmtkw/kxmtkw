@@ -71,7 +71,7 @@ with open("profile_code.svg", "w") as f:
     highlight(readme, PythonLexer(), formatter, f)
     
 height = readme.count('\n') * 20
-width = max(len(h) for h in readme.splitlines()) * 8
+width = max(len(h) for h in readme.splitlines()) * 10
 print([len(h) for h in readme.splitlines()])
 readme = f'<img src="profile_code.svg" width="{width}" height="{height}" alt="Developer Profile">'
 
