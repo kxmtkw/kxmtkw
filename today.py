@@ -33,25 +33,25 @@ class Haseeb(Human):
         
     def hobbies(self) -> list[str]:
         return [
-            {',\n			'.join(hobbies)}
+            {',\n            '.join(hobbies)}
         ]
 
 
     def expertise(self) -> list[str]:
         return [
-            {',\n			'.join(expertise)}
+            {',\n            '.join(expertise)}
         ]
 
 
     def technologies(self) -> list[str]:
         return [
-            {',\n			'.join(techs)}
+            {',\n            '.join(techs)}
         ]
 
 
     def contactInfo(self) -> dict[str, str]:
         return {{
-            {',\n			'.join(contact_rows)}
+            {',\n            '.join(contact_rows)}
         }}
 
 
