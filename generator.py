@@ -26,7 +26,7 @@ def getData() -> dict:
     try:
         with open("data.json") as file:
             data = json.load(file)
-    except FileNotFoundError, json.JSONDecodeError:
+    except (FileNotFoundError, json.JSONDecodeError):
         print("data.json does not exist or is corrupted!")
         exit(1)
 
@@ -69,5 +69,5 @@ def makeReadme(content: str, svg: str, readme: str):
 
 def pushToGithub():
 	subprocess.run("git add .", shell=True, capture_output=True)
-	subprocess.run(f"git commit -m {datetime.now().strftime('%d/%m/%y')}", shell=True, capture_output=True)
+	subprocess.run(f"git commit -m 'Manual'", shell=True, capture_output=True)
 	subprocess.run("git push", shell=True, capture_output=True)
