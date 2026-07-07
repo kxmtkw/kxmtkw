@@ -25,57 +25,57 @@ from universe.planets.earth import Pakistan
 class Haseeb(Human):
 
 
-	def __init__(self):
-		self.name     = "A. Haseeb Khalid"
-		self.age      = "{age}"
-		self.location = Pakistan.Lahore
+    def __init__(self):
+        self.name     = "A. Haseeb Khalid"
+        self.age      = "{age}"
+        self.location = Pakistan.Lahore
 
-		
-	def hobbies(self) -> list[str]:
-		return [
-			{',\n			'.join(hobbies)}
-		]
-
-
-	def expertise(self) -> list[str]:
-		return [
-			{',\n			'.join(expertise)}
-		]
+        
+    def hobbies(self) -> list[str]:
+        return [
+            {',\n			'.join(hobbies)}
+        ]
 
 
-	def technologies(self) -> list[str]:
-		return [
-			{',\n			'.join(techs)}
-		]
+    def expertise(self) -> list[str]:
+        return [
+            {',\n			'.join(expertise)}
+        ]
 
 
-	def contactInfo(self) -> dict[str, str]:
-		return {{
-			{',\n			'.join(contact_rows)}
-		}}
+    def technologies(self) -> list[str]:
+        return [
+            {',\n			'.join(techs)}
+        ]
+
+
+    def contactInfo(self) -> dict[str, str]:
+        return {{
+            {',\n			'.join(contact_rows)}
+        }}
 
 
 def main():
-	haseeb = Haseeb()
-	haseeb.live()
+    haseeb = Haseeb()
+    haseeb.live()
 
 
 if __name__ == "__main__":
-	main()
+    main()
 """
 
 
 formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=8, line_height=1)
 
 with open("profile_code.svg", "w") as f:
-	highlight(readme, PythonLexer(), formatter, f)
-	
+    highlight(readme, PythonLexer(), formatter, f)
+    
 height = readme.count('\n') * 20
 width = max(len(h) for h in readme.splitlines()) * 8
 readme = f'<img src="profile_code.svg" width="{width}" height="{height}" alt="Developer Profile">'
 
 with open("README.md", "w") as f:
-	f.write(readme)
+    f.write(readme)
 
 print(">> Written Readme")
 
