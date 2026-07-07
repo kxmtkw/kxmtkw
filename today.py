@@ -70,6 +70,10 @@ formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=8, 
 with open("profile_code.svg", "w") as f:
 	highlight(readme, PythonLexer(), formatter, f)
 	
+height = readme.count('\n') * 20
+width = max(len(h) for h in readme.splitlines()) * 8
+readme = f'<img src="profile_code.svg" width="{width}" height="{height}" alt="Developer Profile">'
+
 print(">> Written Readme")
 
 print(">> Pushing to github")
