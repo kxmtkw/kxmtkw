@@ -53,12 +53,12 @@ def contactInfo() -> dict[str, str]:
 
 def makeReadme(content: str, svg: str, readme: str):
 		
-	formatter = SvgFormatter(style="monokai", font_family="iosevka", font_size=8, line_height=1)
+	formatter = SvgFormatter(style="monokai", font_family="iosevka2", font_size=8, line_height=1)
 
 	with open(svg, "w") as f:
 		highlight(content, PythonLexer(), formatter, f)
 		
-	height = content.count('\n') * 22
+	height = content.count('\n') * 21
 	width = max(len(h) for h in content.splitlines()) * 10
      
 	readme_content = f'<img src="{svg}" width="{width}" height="{height}" alt="Github Profile">'
