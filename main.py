@@ -1,5 +1,3 @@
-import subprocess
-from datetime import datetime
 import generator
 
 
@@ -61,5 +59,12 @@ if __name__ == "__main__":
     main()
 	"""
 
-generator.makeReadme(readme, "profilepic.svg", "README.md")	
+import os
+
+if os.path.exists("profileA.svg"):
+	svg = "profileB.svg"
+else:
+	svg = "profileA.svg"
+
+generator.makeReadme(readme, svg, "README.md")	
 generator.pushToGithub()
