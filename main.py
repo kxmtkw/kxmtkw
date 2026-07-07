@@ -1,15 +1,15 @@
 import subprocess
 from datetime import datetime
-import generate
+import generator
 
 
-age = generate.age()
-hobbies   = [repr(h) for h in generate.hobbies()]
-expertise = [repr(e) for e in generate.expertise()]
-techs     = [repr(t) for t in generate.technologies()]
+age = generator.age()
+hobbies   = [repr(h) for h in generator.hobbies()]
+expertise = [repr(e) for e in generator.expertise()]
+techs     = [repr(t) for t in generator.technologies()]
 
 
-contact_dict = generate.contactInfo()
+contact_dict = generator.contactInfo()
 longest_contact_key = max(len(key) for key in contact_dict.keys())
 contact_rows = [f"{repr(key):<{longest_contact_key + 2}} : {repr(val)}" for key, val in contact_dict.items()]
 
@@ -61,5 +61,5 @@ if __name__ == "__main__":
     main()
 """
 
-generate.makeReadme(readme, "profile.svg", "README.md")	
-generate.pushToGithub()
+generator.makeReadme(readme, "profile.svg", "README.md")	
+generator.pushToGithub()
