@@ -1,17 +1,14 @@
 
-```python
 from universe.organisms import Human
 from universe.planets.earth import Pakistan
 
 
 class Haseeb(Human):
 
-
 	def __init__(self):
 		self.name     = "A. Haseeb Khalid"
 		self.age      = "17 Years, 11 Months, 29 Days"
 		self.location = Pakistan.Lahore
-
 
 	def hobbies(self) -> list[str]:
 		return [
@@ -54,4 +51,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-```

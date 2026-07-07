@@ -1,6 +1,9 @@
 import subprocess
 from datetime import datetime
 import generate
+from pygments import highlight
+from pygments.lexers import PythonLexer
+from pygments.formatters import SvgFormatter
 
 
 age = generate.age()
@@ -15,19 +18,16 @@ contact_rows = [f"{repr(key):<{longest_contact_key + 2}} : {repr(val)}" for key,
 
 
 readme = f"""
-```python
 from universe.organisms import Human
 from universe.planets.earth import Pakistan
 
 
 class Haseeb(Human):
 
-
 	def __init__(self):
 		self.name     = "A. Haseeb Khalid"
 		self.age      = "{age}"
 		self.location = Pakistan.Lahore
-
 
 	def hobbies(self) -> list[str]:
 		return [
@@ -60,12 +60,16 @@ def main():
 
 if __name__ == "__main__":
 	main()
-```
 """
 
 with open("README.md", "w") as file:
 	file.write(readme)
 
+formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=10, line_height=1.4)
+
+with open("profile_code.svg", "w") as f:
+	highlight(readme, PythonLexer(), formatter, f)
+	
 print(">> Written Readme")
 
 print(">> Pushing to github")
