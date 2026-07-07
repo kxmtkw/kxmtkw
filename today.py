@@ -72,6 +72,7 @@ with open("profile_code.svg", "w") as f:
     
 height = readme.count('\n') * 20
 width = max(len(h) for h in readme.splitlines()) * 8
+print(len(h) for h in readme.splitlines())
 readme = f'<img src="profile_code.svg" width="{width}" height="{height}" alt="Developer Profile">'
 
 with open("README.md", "w") as f:
