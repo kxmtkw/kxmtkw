@@ -1,9 +1,6 @@
 import subprocess
 from datetime import datetime
 import generate
-from pygments import highlight
-from pygments.lexers import PythonLexer
-from pygments.formatters import SvgFormatter
 
 
 age = generate.age()
@@ -64,24 +61,5 @@ if __name__ == "__main__":
     main()
 """
 
-
-formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=8, line_height=1)
-
-with open("profile_code.svg", "w") as f:
-    highlight(readme, PythonLexer(), formatter, f)
-    
-height = readme.count('\n') * 20
-width = max(len(h) for h in readme.splitlines()) * 10
-print([len(h) for h in readme.splitlines()])
-readme = f'<img src="profile_code.svg" width="{width}" height="{height}" alt="Developer Profile">'
-
-with open("README.md", "w") as f:
-    f.write(readme)
-
-print(">> Written Readme")
-
-print(">> Pushing to github")
-
-subprocess.run("git add .", shell=True, capture_output=True)
-subprocess.run(f"git commit -m {datetime.now().strftime('%d/%m/%y')}", shell=True, capture_output=True)
-subprocess.run("git push", shell=True, capture_output=True)
+generate.makeReadme(readme, "profile.svg", "README.md")	
+generate.pushToGithub()

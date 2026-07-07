@@ -1,6 +1,12 @@
 from datetime import datetime
+import subprocess
 from dateutil.relativedelta import relativedelta
 import json
+
+from pygments import highlight
+from pygments.lexers import PythonLexer
+from pygments.formatters import SvgFormatter
+
 
 def age() -> str:
     birthday = datetime(2008, 7, 8)
@@ -45,7 +51,23 @@ def contactInfo() -> dict[str, str]:
     return getData().get("contactInfo", {})
 
 
+def makeReadme(content: str, svg: str, readme: str):
+		
+	formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=8, line_height=1)
 
+	with open(svg, "w") as f:
+		highlight(content, PythonLexer(), formatter, f)
+		
+	height = content.count('\n') * 20
+	width = max(len(h) for h in content.splitlines()) * 10
+     
+	readme_content = f'<img src="{svg}" width="{width}" height="{height}" alt="Github Profile">'
 
+	with open(readme, "w") as f:
+		f.write(readme_content)
+          
 
-
+def pushToGithub():
+	subprocess.run("git add .", shell=True, capture_output=True)
+	subprocess.run(f"git commit -m {datetime.now().strftime('%d/%m/%y')}", shell=True, capture_output=True)
+	subprocess.run("git push", shell=True, capture_output=True)
