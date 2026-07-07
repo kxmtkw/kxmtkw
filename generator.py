@@ -53,7 +53,7 @@ def contactInfo() -> dict[str, str]:
 
 def makeReadme(content: str, svg: str, readme: str):
 		
-	formatter = SvgFormatter(style="monokai", font_family="iosevka", font_size=12, line_height=1)
+	formatter = SvgFormatter(style="github-dark", font_family="iosevka", font_size=12, line_height=1)
 
 	with open(svg, "w") as f:
 		highlight(content, PythonLexer(), formatter, f)
