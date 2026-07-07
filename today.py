@@ -63,7 +63,7 @@ if __name__ == "__main__":
 """
 
 
-formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=10, line_height=1.4)
+formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=8, line_height=1)
 
 with open("profile_code.svg", "w") as f:
 	highlight(readme, PythonLexer(), formatter, f)
