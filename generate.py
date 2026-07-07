@@ -58,7 +58,7 @@ def makeReadme(content: str, svg: str, readme: str):
 	with open(svg, "w") as f:
 		highlight(content, PythonLexer(), formatter, f)
 		
-	height = content.count('\n') * 24
+	height = content.count('\n') * 20
 	width = max(len(h) for h in content.splitlines()) * 10
      
 	readme_content = f'<img src="{svg}" width="{width}" height="{height}" alt="Github Profile">'
