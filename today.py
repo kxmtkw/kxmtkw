@@ -62,8 +62,6 @@ if __name__ == "__main__":
 	main()
 """
 
-with open("README.md", "w") as file:
-	file.write(readme)
 
 formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=10, line_height=1.4)
 
