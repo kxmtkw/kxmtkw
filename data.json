@@ -1,0 +1,24 @@
+{
+	"hobbies": [
+		"Learning about computers",
+		"Losing in chess",
+		"Procrastinating"
+	],
+	"expertise": [
+		"Low level programming",
+		"Systems design and architecture",
+		"Automating stuff because I am lazy"
+	],
+	"technologies": [
+		"c",
+		"c++",
+		"python",
+		"linux",
+		"git"
+	],
+	"contactInfo": {
+		"mail"    : "abdulhaseeb.8j@gmail.com",
+		"discord" : "kxmtkw",
+		"insta"   : "haseebolall"
+	}
+}
