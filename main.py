@@ -59,8 +59,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-	
-"""
+	"""
 
 generator.makeReadme(readme, "profile.svg", "README.md")	
 generator.pushToGithub()
