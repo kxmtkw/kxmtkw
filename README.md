@@ -1,1 +1,1 @@
-<img src="profile_code.svg" width="8" height="20" alt="Developer Profile">
+<img src="profile_code.svg" width="384" height="1100" alt="Developer Profile">

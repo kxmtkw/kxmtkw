@@ -74,6 +74,9 @@ height = readme.count('\n') * 20
 width = max(len(h) for h in readme.splitlines()) * 8
 readme = f'<img src="profile_code.svg" width="{width}" height="{height}" alt="Developer Profile">'
 
+with open("README.md", "w") as f:
+	f.write(readme)
+
 print(">> Written Readme")
 
 print(">> Pushing to github")
