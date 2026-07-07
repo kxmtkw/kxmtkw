@@ -13,7 +13,7 @@ contact_dict = generator.contactInfo()
 longest_contact_key = max(len(key) for key in contact_dict.keys())
 contact_rows = [f"{repr(key):<{longest_contact_key + 2}} : {repr(val)}" for key, val in contact_dict.items()]
 
-
+delimiter = ",\n            "
 readme = f"""
 from universe.organisms import Human
 from universe.planets.earth import Pakistan
@@ -30,25 +30,25 @@ class Haseeb(Human):
         
     def hobbies(self) -> list[str]:
         return [
-            {',\n            '.join(hobbies)}
+            {delimiter.join(hobbies)}
         ]
 
 
     def expertise(self) -> list[str]:
         return [
-            {',\n            '.join(expertise)}
+            {delimiter.join(expertise)}
         ]
 
 
     def technologies(self) -> list[str]:
         return [
-            {',\n            '.join(techs)}
+            {delimiter.join(techs)}
         ]
 
 
     def contactInfo(self) -> dict[str, str]:
         return {{
-            {',\n            '.join(contact_rows)}
+            {delimiter.join(contact_rows)}
         }}
 
 
