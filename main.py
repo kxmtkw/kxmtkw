@@ -17,26 +17,30 @@ fmt_contacts = "\n".join(
 
 readme = f"""
 # Profile
-profile:
-  name     : A. Haseeb Khalid
-  age      : {age}
-  location : Lahore, Pakistan
+[profile]
+name     = A. Haseeb Khalid
+age      = {age}
+location = Lahore, Pakistan
 
 # Hobbies
-hobbies:
+hobbies = \"""
 {fmt_hobbies}
+\"""
 
 # Focus & Skills
-expertise:
+expertise = \"""
 {fmt_expertise}
+\"""
 
-technologies:
+technologies = \"""
 {fmt_techs}
-
+\"""
 
 # Communications
-contacts:
-{fmt_contacts}"""
+contacts = \"""
+{fmt_contacts}
+\"""
+"""
 
 import os 
 
