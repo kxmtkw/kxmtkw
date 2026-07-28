@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg xmlns="http://www.w3.org/2000/svg">
-<g font-family="CaskaydiaCove Nerd Font" font-size="14px">
+<g font-family="monospace" font-size="14px">
 <text x="0" y="14" xml:space="preserve"><tspan fill="#ff4689" font-weight="bold">$&#160;</tspan><tspan fill="#f8f8f2">whoami</tspan><tspan fill="#f8f8f2"></tspan></text>
 <text x="0" y="33" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">haseeb</tspan></text>
 <text x="0" y="52" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
 <text x="0" y="71" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#ff4689" font-weight="bold">$&#160;</tspan><tspan fill="#f8f8f2">cat</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#f8f8f2">info.txt</tspan><tspan fill="#f8f8f2"></tspan></text>
-<text x="0" y="90" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">💻Age:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#39;18&#160;Years,&#160;0&#160;Months,&#160;20&#160;Days&#39;</tspan></text>
+<text x="0" y="90" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">Age:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#39;18&#160;Years,&#160;0&#160;Months,&#160;20&#160;Days&#39;</tspan></text>
 <text x="0" y="109" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Location:&#160;&#160;&#39;Lahore,&#160;Pakistan&#39;</tspan></text>
 <text x="0" y="128" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
 <text x="0" y="147" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#ff4689" font-weight="bold">$&#160;</tspan><tspan fill="#f8f8f2">ls</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#f8f8f2">-1</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#f8f8f2">hobbies</tspan><tspan fill="#f8f8f2"></tspan></text>
