@@ -50,5 +50,7 @@ elif os.path.exists("profile2.svg"):
 else:
 	svg = "profile1.svg"
 
+print(readme)
+
 generator.makeReadme(readme, svg, "README.md")	
 generator.pushToGithub()
