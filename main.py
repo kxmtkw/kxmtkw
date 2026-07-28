@@ -12,7 +12,7 @@ fmt_techs = "\n".join(f"- {t}" for t in techs)
 
 longest_contact_key = max(len(key) for key in contacts.keys())
 fmt_contacts = "\n".join(
-    f"{key:<{longest_contact_key}} = {val}" for key, val in contacts.items()
+    f"{key:<{longest_contact_key}} = \"{val}\"" for key, val in contacts.items()
 )
 
 readme = f"""
@@ -25,7 +25,6 @@ location = "Lahore, Pakistan"
 hobbies = \"""
 {fmt_hobbies}
 \"""
-
 
 [skills]
 
