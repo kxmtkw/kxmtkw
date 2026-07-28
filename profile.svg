@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg xmlns="http://www.w3.org/2000/svg">
-<g font-family="Iosevka" font-size="16">
+<g font-family="Iosevka Nerd Font" font-size="16">
 <text x="0" y="16" xml:space="preserve"><tspan fill="#ff4689" font-weight="bold">$&#160;</tspan><tspan fill="#f8f8f2">whoami</tspan><tspan fill="#f8f8f2"></tspan></text>
 <text x="0" y="37" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">haseeb</tspan></text>
 <text x="0" y="58" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
