@@ -14,10 +14,10 @@ contact_rows = [f"CONTACT_{str(key).upper()}={str(val)}" for key, val in contact
 delimiter = ",\n            "
 readme = f"""
 $ whoami
-👤 haseeb
+haseeb
 
 $ cat info.txt
-⌛ Age:       {age}
+Age:       {age}
 Location:  {location}
 
 $ ls -1 hobbies
