@@ -5,6 +5,7 @@ import json
 
 from pygments import highlight
 from pygments.lexers.shell import BashSessionLexer
+from pygments.lexers.python import PythonLexer
 from pygments.formatters import SvgFormatter
 
 
@@ -60,7 +61,7 @@ def makeReadme(content: str, svg: str, readme: str):
 	formatter = SvgFormatter(style="monokai", font_family="iosevka", font_size=10, line_height=1)
 
 	with open(svg, "w") as f:
-		highlight(content, BashSessionLexer(), formatter, f)
+		highlight(content, PythonLexer(), formatter, f)
 		
 	height = content.count('\n') * 21
 	width = max(len(h) for h in content.splitlines()) * 10
