@@ -31,6 +31,7 @@ haseeb@host $ printenv | grep CONTACT
 {'\n'.join(contact_rows)}
 	"""
 
+print(readme)
 import os
 
 if os.path.exists("profileA.svg"):
