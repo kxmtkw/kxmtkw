@@ -15,7 +15,8 @@ fmt_contacts = "\n".join(
     f"  {key:<{longest_contact_key}} : {val}" for key, val in contacts.items()
 )
 
-readme = f"""# Profile
+readme = f"""
+# Profile
 profile:
   name     : A. Haseeb Khalid
   age      : {age}
