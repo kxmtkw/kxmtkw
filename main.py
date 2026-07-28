@@ -15,11 +15,16 @@ fmt_contacts = "\n".join(
     f"  {key:<{longest_contact_key}} : {val}" for key, val in contacts.items()
 )
 
-readme = f"""# Profile
+readme = f"""
+# Profile
 profile:
-  name     : "A. Haseeb Khalid"
+  name     : A. Haseeb Khalid
   age      : {age}
   location : Lahore, Pakistan
+
+# Hobbies
+hobbies:
+{fmt_hobbies}
 
 # Focus & Skills
 expertise:
@@ -28,9 +33,6 @@ expertise:
 technologies:
 {fmt_techs}
 
-# Hobbies
-hobbies:
-{fmt_hobbies}
 
 # Communications
 contacts:
