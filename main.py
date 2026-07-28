@@ -21,16 +21,16 @@ profile:
     age      : {age}
     location : Lahore, Pakistan
 
+# Hobbies
+hobbies:
+{fmt_hobbies}
+
 # Focus & Skills
 expertise:
 {fmt_expertise}
 
 technologies:
 {fmt_techs}
-
-# Hobbies
-hobbies:
-{fmt_hobbies}
 
 # Communications
 contacts:
