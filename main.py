@@ -15,7 +15,7 @@ delimiter = ",\n            "
 readme = f"""
 $ whoami
 haseeb
-󰙅
+👤
 $ cat info.txt
 Age:       {age}
 Location:  {location}
