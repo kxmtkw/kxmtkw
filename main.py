@@ -23,11 +23,9 @@ haseeb
 $ cat /etc/age
 {age}
 
-$ ls "hobbies"
-{'\n'.join(hobbies)}
-
-$ ls "expertise"
-{'\n'.join(expertise)}
+$ tree ~/.hobbies"
+hobbies
+{'\n	├──'.join(hobbies)}
 
 $ echo $technologies
 {' | '.join(techs)}
