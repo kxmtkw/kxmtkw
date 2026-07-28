@@ -4,7 +4,7 @@ from dateutil.relativedelta import relativedelta
 import json
 
 from pygments import highlight
-from pygments.lexers import PythonLexer
+from pygments.lexers.shell import BashSessionLexer
 from pygments.formatters import SvgFormatter
 
 
@@ -56,7 +56,7 @@ def makeReadme(content: str, svg: str, readme: str):
 	formatter = SvgFormatter(style="monokai", font_family="monospace", font_size=10, line_height=1)
 
 	with open(svg, "w") as f:
-		highlight(content, PythonLexer(), formatter, f)
+		highlight(content, BashSessionLexer(), formatter, f)
 		
 	height = content.count('\n') * 21
 	width = max(len(h) for h in content.splitlines()) * 10
