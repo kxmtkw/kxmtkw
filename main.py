@@ -2,66 +2,40 @@ import generator
 
 
 age = generator.age()
-hobbies   = [repr(h) for h in generator.hobbies()]
-expertise = [repr(e) for e in generator.expertise()]
-techs     = [repr(t) for t in generator.technologies()]
+hobbies   = [str(h) for h in generator.hobbies()]
+expertise = [str(e) for e in generator.expertise()]
+techs     = [str(t) for t in generator.technologies()]
 
 
 contact_dict = generator.contactInfo()
 longest_contact_key = max(len(key) for key in contact_dict.keys())
-contact_rows = [f"{repr(key):<{longest_contact_key + 2}} : {repr(val)}" for key, val in contact_dict.items()]
+contact_rows = [f"CONTACT_{str(key).upper():<{longest_contact_key + 2}}={str(val)}" for key, val in contact_dict.items()]
 
 delimiter = ",\n            "
 readme = f"""
-from universe.organisms import Human
-from universe.planets.earth import Pakistan
+haseeb@host $ whoami
+haseeb
 
+haseeb@host $ cat age.txt
+{age}
 
-class Haseeb(Human):
+haseeb@host $ ls hobbies
+{'\n'.join(hobbies)}
 
+haseeb@host $ ls technologies
+{' '.join(techs)}
 
-    def __init__(self):
-        self.name     = "A. Haseeb Khalid"
-        self.age      = "{age}"
-        self.location = Pakistan.Lahore
+haseeb@host $ ls expertise
+{'\n'.join(expertise)}
 
-        
-    def hobbies(self) -> list[str]:
-        return [
-            {delimiter.join(hobbies)}
-        ]
-
-
-    def expertise(self) -> list[str]:
-        return [
-            {delimiter.join(expertise)}
-        ]
-
-
-    def technologies(self) -> list[str]:
-        return [
-            {delimiter.join(techs)}
-        ]
-
-
-    def contactInfo(self) -> dict[str, str]:
-        return {{
-            {delimiter.join(contact_rows)}
-        }}
-
-
-def main():
-    haseeb = Haseeb()
-    haseeb.live()
-
-
-if __name__ == "__main__":
-    main()
+haseeb@host $ printenv | grep CONTACT
+{'\n'.join(contact_rows)}
 	"""
 
 import os
 
 if os.path.exists("profileA.svg"):
+	os.remove("profileA.svg")
 	svg = "profileB.svg"
 else:
 	svg = "profileA.svg"
