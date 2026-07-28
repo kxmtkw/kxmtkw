@@ -3,8 +3,8 @@ import generator
 
 age = generator.age()
 location = generator.location()
-hobbies   = [f"- {str(h)}" for h in generator.hobbies()]
-expertise = [f"- {str(e)}" for e in generator.expertise()]
+hobbies   = [str(h) for h in generator.hobbies()]
+expertise = [str(e) for e in generator.expertise()]
 techs     = [str(t) for t in generator.technologies()]
 
 
@@ -17,7 +17,7 @@ $ whoami
 👤 haseeb
 
 $ cat info.txt
-Age:       {age}
+⌛ Age:       {age}
 Location:  {location}
 
 $ ls -1 hobbies
