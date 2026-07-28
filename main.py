@@ -34,7 +34,8 @@ hobbies:
 
 # Communications
 contacts:
-{fmt_contacts}"""
+{fmt_contacts}
+"""
 
 
 import os 
