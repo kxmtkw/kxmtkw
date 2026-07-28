@@ -58,7 +58,7 @@ def contactInfo() -> dict[str, str]:
 
 def makeReadme(content: str, svg: str, readme: str):
 		
-	formatter = SvgFormatter(style="monokai", fontfamily="Iosevka", fontsize="14", line_height=1)
+	formatter = SvgFormatter(style="monokai", fontfamily="Iosevka", fontsize="16", line_height=1)
 
 	with open(svg, "w") as f:
 		highlight(content, BashSessionLexer(), formatter, f)

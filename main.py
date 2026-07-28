@@ -17,8 +17,8 @@ $ whoami
 haseeb
 
 $ cat info.txt
-Age:       '{age}'
-Location:  '{location}'
+ Age:       '{age}'
+ Location:  '{location}'
 
 $ ls -1 hobbies
 {'\n'.join(hobbies)}
