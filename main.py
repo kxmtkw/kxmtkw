@@ -6,21 +6,20 @@ expertise = generator.expertise()
 techs = generator.technologies()
 contacts = generator.contactInfo()
 
-fmt_hobbies = "\n".join(f"  - {h}" for h in hobbies)
-fmt_expertise = "\n".join(f"  - {e}" for e in expertise)
-fmt_techs = "\n".join(f"  - {t}" for t in techs)
+fmt_hobbies = "\n".join(f"    - {h}" for h in hobbies)
+fmt_expertise = "\n".join(f"    - {e}" for e in expertise)
+fmt_techs = "\n".join(f"    - {t}" for t in techs)
 
 longest_contact_key = max(len(key) for key in contacts.keys())
 fmt_contacts = "\n".join(
     f"  {key:<{longest_contact_key}} : {val}" for key, val in contacts.items()
 )
 
-readme = f"""
-# Profile
+readme = f"""# Profile
 profile:
-  name     : A. Haseeb Khalid
-  age      : {age}
-  location : Lahore, Pakistan
+    name     : A. Haseeb Khalid
+    age      : {age}
+    location : Lahore, Pakistan
 
 # Focus & Skills
 expertise:
@@ -35,8 +34,8 @@ hobbies:
 
 # Communications
 contacts:
-{fmt_contacts}
-"""
+{fmt_contacts}"""
+
 
 import os 
 
