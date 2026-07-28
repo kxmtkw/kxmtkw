@@ -17,7 +17,7 @@ fmt_contacts = "\n".join(
 
 readme = f"""# Profile
 profile:
-  name     : A. Haseeb Khalid
+  name     : "A. Haseeb Khalid"
   age      : {age}
   location : Lahore, Pakistan
 
