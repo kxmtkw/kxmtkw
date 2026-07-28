@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<g font-family="Iosevka" font-size="16">
+<text x="0" y="16" xml:space="preserve"><tspan fill="#66d9ef">$&#160;whoami</tspan></text>
+<text x="0" y="37" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">haseeb</tspan></text>
+<text x="0" y="58" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
+<text x="0" y="79" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">$&#160;cat&#160;info.txt</tspan></text>
+<text x="0" y="100" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Age:&#160;&#160;&#160;&#160;&#160;&#160;&#160;18&#160;Years,&#160;0&#160;Months,&#160;20&#160;Days</tspan></text>
+<text x="0" y="121" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Location:&#160;&#160;Lahore,&#160;Pakistan</tspan></text>
+<text x="0" y="142" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
+<text x="0" y="163" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">$&#160;ls&#160;-1&#160;hobbies</tspan></text>
+<text x="0" y="184" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Learning&#160;about&#160;computers</tspan></text>
+<text x="0" y="205" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Professionally&#160;losing&#160;in&#160;Chess</tspan></text>
+<text x="0" y="226" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Reading&#160;mangas</tspan></text>
+<text x="0" y="247" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Eating</tspan></text>
+<text x="0" y="268" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
+<text x="0" y="289" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">$&#160;ls&#160;-1&#160;expertise</tspan></text>
+<text x="0" y="310" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Low&#160;level&#160;programming</tspan></text>
+<text x="0" y="331" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Systems&#160;design&#160;and&#160;architecture</tspan></text>
+<text x="0" y="352" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Automating&#160;stuff&#160;because&#160;I&#39;m&#160;lazy</tspan></text>
+<text x="0" y="373" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
+<text x="0" y="394" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">$&#160;echo&#160;$technologies</tspan></text>
+<text x="0" y="415" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">c&#160;c++&#160;python&#160;linux&#160;git</tspan></text>
+<text x="0" y="436" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
+<text x="0" y="457" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">$&#160;printenv&#160;|&#160;grep&#160;CONTACT</tspan></text>
+<text x="0" y="478" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">CONTACT_MAIL&#160;&#160;&#160;&#160;=&#160;abdulhaseeb.8j@gmail.com</tspan></text>
+<text x="0" y="499" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">CONTACT_DISCORD&#160;=&#160;kxmtkw</tspan></text>
+<text x="0" y="520" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">CONTACT_INSTA&#160;&#160;&#160;=&#160;haseebyii</tspan></text>
+<text x="0" y="541" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
+<text x="0" y="562" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan></text>
+<text x="0" y="583" xml:space="preserve"><tspan fill="#66d9ef"></tspan></text></g></svg>
