@@ -31,7 +31,7 @@ $ ls -1 expertise
 {'\n'.join(expertise)}
 
 $ echo $technologies
-{' '.join(techs)}
+{' | '.join(techs)}
 
 $ printenv | grep CONTACT
 {'\n'.join(contact_rows)}
