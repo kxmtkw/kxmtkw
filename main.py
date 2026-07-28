@@ -8,8 +8,7 @@ techs     = [str(t) for t in generator.technologies()]
 
 
 contact_dict = generator.contactInfo()
-longest_contact_key = max(len(key) for key in contact_dict.keys())
-contact_rows = [f"CONTACT_{str(key).upper():<{longest_contact_key + 2}}={str(val)}" for key, val in contact_dict.items()]
+contact_rows = [f"CONTACT_{str(key).upper()}={str(val)}" for key, val in contact_dict.items()]
 
 delimiter = ",\n            "
 readme = f"""
