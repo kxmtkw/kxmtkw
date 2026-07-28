@@ -31,7 +31,21 @@ haseeb@host $ printenv | grep CONTACT
 {'\n'.join(contact_rows)}
 	"""
 
-print(readme)
+readme = """
+haseeb@host $ fastfetch --profile
+  /\\_/\\     haseeb@host
+ ( o.o )    -----------
+  > ^ <     OS         : Arch Linux x86_64
+            Age        : 18 Years
+            Focus      : Low-level programming, Systems design
+            Tech Stack : C, C++, Python, Linux, Git
+            Hobbies    : Computers, Chess, Eating
+
+            [CONTACTS]
+            Email      : abdulhaseeb.8j@gmail.com
+            Discord    : kxmtkw
+            Instagram  : haseebolall
+"""
 import os
 
 if os.path.exists("profileA.svg"):
