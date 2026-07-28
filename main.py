@@ -20,14 +20,13 @@ readme = f"""
 $ whoami
 haseeb
 
-$ cat info.txt
-Age:       {age}
-Location:  {location}
+$ cat /etc/age
+{age}
 
-$ ls -1 hobbies
+$ ls -1 "hobbies"
 {'\n'.join(hobbies)}
 
-$ ls -1 expertise
+$ ls -1 "expertise"
 {'\n'.join(expertise)}
 
 $ echo $technologies
