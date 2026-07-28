@@ -3,9 +3,9 @@ import generator
 
 age = generator.age()
 location = generator.location()
-hobbies   = [str(h).capitalize() for h in generator.hobbies()]
+hobbies   = [str(h) for h in generator.hobbies()]
 expertise = [str(e) for e in generator.expertise()]
-techs     = [str(t) for t in generator.technologies()]
+techs     = [str(t).capitalize() for t in generator.technologies()]
 
 
 contact_dict = generator.contactInfo()
