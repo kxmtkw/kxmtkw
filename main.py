@@ -34,7 +34,6 @@ $ echo $technologies
 
 $ printenv | grep CONTACT
 {'\n'.join(contact_rows)}
-
 	"""
 
 
