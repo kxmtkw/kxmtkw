@@ -35,9 +35,16 @@ $ printenv | grep CONTACT
 	"""
 
 
+import os 
 
-
-svg = "profile.svg"
+if os.path.exists("profile1.svg"):
+	os.remove("profile1.svg")
+	svg = "profile2.svg"
+elif os.path.exists("profile2.svg"):
+	os.remove("profile2.svg")
+	svg = "profile1.svg"
+else:
+	svg = "profile1.svg"
 
 generator.makeReadme(readme, svg, "README.md")	
 generator.pushToGithub()
