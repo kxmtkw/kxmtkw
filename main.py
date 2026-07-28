@@ -1,60 +1,41 @@
 import generator
 
 age = generator.age()
-hobbies   = [repr(h) for h in generator.hobbies()]
-expertise = [repr(e) for e in generator.expertise()]
-techs     = [repr(t) for t in generator.technologies()]
+hobbies = generator.hobbies()
+expertise = generator.expertise()
+techs = generator.technologies()
+contacts = generator.contactInfo()
 
+fmt_hobbies = "\n".join(f"  - {h}" for h in hobbies)
+fmt_expertise = "\n".join(f"  - {e}" for e in expertise)
+fmt_techs = "\n".join(f"  - {t}" for t in techs)
 
-contact_dict = generator.contactInfo()
-longest_contact_key = max(len(key) for key in contact_dict.keys())
-contact_rows = [f"{repr(key):<{longest_contact_key + 2}} : {repr(val)}" for key, val in contact_dict.items()]
+longest_contact_key = max(len(key) for key in contacts.keys())
+fmt_contacts = "\n".join(
+    f"  {key:<{longest_contact_key}} : {val}" for key, val in contacts.items()
+)
 
-delimiter = ",\n            "
-readme = f"""
-from organisms import Human
-from countries import Pakistan
+readme = f"""# Profile
+profile:
+  name     : A. Haseeb Khalid
+  age      : {age}
+  location : Lahore, Pakistan
 
+# Focus & Skills
+expertise:
+{fmt_expertise}
 
-class Haseeb(Human):
+technologies:
+{fmt_techs}
 
+# Hobbies
+hobbies:
+{fmt_hobbies}
 
-    def __init__(self):
-        self.name     = "A. Haseeb Khalid"
-        self.age      = "{age}"
-        self.location = Pakistan.Lahore
-
-        
-    def hobbies(self) -> list[str]:
-        return [
-            {delimiter.join(hobbies)}
-        ]
-
-
-    def expertise(self) -> list[str]:
-        return [
-            {delimiter.join(expertise)}
-        ]
-
-
-    def technologies(self) -> list[str]:
-        return [
-            {delimiter.join(techs)}
-        ]
-
-
-    def contactInfo(self) -> dict[str, str]:
-        return {{
-            {delimiter.join(contact_rows)}
-        }}
-
-
-def main():
-    haseeb = Haseeb()
-
-if __name__ == "__main__":
-    main()
-	"""
+# Communications
+contacts:
+{fmt_contacts}
+"""
 
 import os 
 
