@@ -23,10 +23,10 @@ haseeb
 $ cat /etc/age
 {age}
 
-$ ls -1 "hobbies"
+$ ls "hobbies"
 {'\n'.join(hobbies)}
 
-$ ls -1 "expertise"
+$ ls "expertise"
 {'\n'.join(expertise)}
 
 $ echo $technologies
