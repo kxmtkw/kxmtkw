@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<g font-family="Iosevka" font-size="16">
+<text x="0" y="16" xml:space="preserve"><tspan fill="#66d9ef">[</tspan><tspan fill="#66d9ef">profile</tspan><tspan fill="#66d9ef">]</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="37" xml:space="preserve"><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="58" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">name</tspan><tspan fill="#f8f8f2">&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#e6db74">&quot;</tspan><tspan fill="#e6db74">A.&#160;Haseeb&#160;Khalid</tspan><tspan fill="#e6db74">&quot;</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="79" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">age</tspan><tspan fill="#f8f8f2">&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#e6db74">&quot;</tspan><tspan fill="#e6db74">18&#160;Years,&#160;0&#160;Months,&#160;20&#160;Days</tspan><tspan fill="#e6db74">&quot;</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="100" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">location</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#e6db74">&quot;</tspan><tspan fill="#e6db74">Lahore,&#160;Pakistan</tspan><tspan fill="#e6db74">&quot;</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="121" xml:space="preserve"><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="142" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">hobbies</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#e6db74">&quot;&quot;&quot;</tspan><tspan fill="#e6db74"></tspan></text>
+<text x="0" y="163" xml:space="preserve"><tspan fill="#e6db74">-&#160;Learning&#160;about&#160;computers</tspan></text>
+<text x="0" y="184" xml:space="preserve"><tspan fill="#e6db74">-&#160;Professionally&#160;losing&#160;in&#160;Chess</tspan></text>
+<text x="0" y="205" xml:space="preserve"><tspan fill="#e6db74">-&#160;Reading&#160;manga</tspan></text>
+<text x="0" y="226" xml:space="preserve"><tspan fill="#e6db74">-&#160;Eating</tspan></text>
+<text x="0" y="247" xml:space="preserve"><tspan fill="#e6db74"></tspan><tspan fill="#e6db74">&quot;&quot;&quot;</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="268" xml:space="preserve"><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="289" xml:space="preserve"><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="310" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">[</tspan><tspan fill="#66d9ef">skills</tspan><tspan fill="#66d9ef">]</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="331" xml:space="preserve"><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="352" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">expertise</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#e6db74">&quot;&quot;&quot;</tspan><tspan fill="#e6db74"></tspan></text>
+<text x="0" y="373" xml:space="preserve"><tspan fill="#e6db74">-&#160;Low&#160;level&#160;programming</tspan></text>
+<text x="0" y="394" xml:space="preserve"><tspan fill="#e6db74">-&#160;Systems&#160;design&#160;and&#160;architecture</tspan></text>
+<text x="0" y="415" xml:space="preserve"><tspan fill="#e6db74">-&#160;Automating&#160;stuff&#160;because&#160;I&#39;m&#160;lazy</tspan></text>
+<text x="0" y="436" xml:space="preserve"><tspan fill="#e6db74"></tspan><tspan fill="#e6db74">&quot;&quot;&quot;</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="457" xml:space="preserve"><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="478" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">technologies</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#e6db74">&quot;&quot;&quot;</tspan><tspan fill="#e6db74"></tspan></text>
+<text x="0" y="499" xml:space="preserve"><tspan fill="#e6db74">-&#160;c</tspan></text>
+<text x="0" y="520" xml:space="preserve"><tspan fill="#e6db74">-&#160;c++</tspan></text>
+<text x="0" y="541" xml:space="preserve"><tspan fill="#e6db74">-&#160;python</tspan></text>
+<text x="0" y="562" xml:space="preserve"><tspan fill="#e6db74">-&#160;linux</tspan></text>
+<text x="0" y="583" xml:space="preserve"><tspan fill="#e6db74">-&#160;git</tspan></text>
+<text x="0" y="604" xml:space="preserve"><tspan fill="#e6db74"></tspan><tspan fill="#e6db74">&quot;&quot;&quot;</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="625" xml:space="preserve"><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="646" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">[</tspan><tspan fill="#66d9ef">contacts</tspan><tspan fill="#66d9ef">]</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="667" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">mail</tspan><tspan fill="#f8f8f2">&#160;&#160;&#160;&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#ed007e">a</tspan><tspan fill="#ed007e">b</tspan><tspan fill="#ed007e">d</tspan><tspan fill="#ed007e">u</tspan><tspan fill="#ed007e">l</tspan><tspan fill="#ed007e">h</tspan><tspan fill="#ed007e">a</tspan><tspan fill="#ed007e">s</tspan><tspan fill="#ed007e">e</tspan><tspan fill="#ed007e">e</tspan><tspan fill="#ed007e">b</tspan><tspan fill="#ed007e">.</tspan><tspan fill="#ae81ff">8</tspan><tspan fill="#f8f8f2">j</tspan><tspan fill="#ed007e">@</tspan><tspan fill="#f8f8f2">gmail</tspan><tspan fill="#f8f8f2">.</tspan><tspan fill="#f8f8f2">com</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="688" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">discord</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#ed007e">k</tspan><tspan fill="#ed007e">x</tspan><tspan fill="#ed007e">m</tspan><tspan fill="#ed007e">t</tspan><tspan fill="#ed007e">k</tspan><tspan fill="#ed007e">w</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="709" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#f8f8f2">insta</tspan><tspan fill="#f8f8f2">&#160;&#160;&#160;</tspan><tspan fill="#ff4689">=</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#ed007e">h</tspan><tspan fill="#ed007e">a</tspan><tspan fill="#ed007e">s</tspan><tspan fill="#ed007e">e</tspan><tspan fill="#ed007e">e</tspan><tspan fill="#ed007e">b</tspan><tspan fill="#ed007e">y</tspan><tspan fill="#ed007e">i</tspan><tspan fill="#ed007e">i</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="730" xml:space="preserve"><tspan fill="#f8f8f2"></tspan></text></g></svg>
