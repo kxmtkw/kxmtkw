@@ -5,7 +5,6 @@ import json
 
 from pygments import highlight
 from pygments.lexers.shell import BashSessionLexer
-from pygments.lexers.python import PythonLexer
 from pygments.formatters import SvgFormatter
 
 
