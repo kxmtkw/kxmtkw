@@ -3,7 +3,7 @@ import generator
 
 age = generator.age()
 location = generator.location()
-hobbies   = [f"- {str(h)}" for h in generator.hobbies()]
+hobbies   = [f" {str(h)}" for h in generator.hobbies()]
 expertise = [f"- {str(e)}" for e in generator.expertise()]
 techs     = [str(t) for t in generator.technologies()]
 
