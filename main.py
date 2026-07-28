@@ -26,7 +26,7 @@ $ ls -1 hobbies
 $ ls -1 expertise
 {'\n'.join(expertise)}
 
-$ ls technologies
+$ echo "${{technologies[@]}}"
 {' '.join(techs)}
 
 $ printenv | grep CONTACT
