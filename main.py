@@ -37,7 +37,7 @@ $ printenv | grep CONTACT
 
 
 
-svg = "profile.svg"
+svg = "profile1.svg"
 
 generator.makeReadme(readme, svg, "README.md")	
 generator.pushToGithub()
