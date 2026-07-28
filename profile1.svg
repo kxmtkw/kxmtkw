@@ -20,13 +20,13 @@
 <text x="0" y="331" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Systems&#160;design&#160;and&#160;architecture</tspan></text>
 <text x="0" y="352" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">Automating&#160;stuff&#160;because&#160;I&#39;m&#160;lazy</tspan></text>
 <text x="0" y="373" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
-<text x="0" y="394" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#ff4689" font-weight="bold">$&#160;</tspan><tspan fill="#f8f8f2">echo</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#e6db74">&quot;</tspan><tspan fill="#e6db74">${</tspan><tspan fill="#f8f8f2">technologies</tspan><tspan fill="#f8f8f2">[@]</tspan><tspan fill="#e6db74">}</tspan><tspan fill="#e6db74">&quot;</tspan><tspan fill="#f8f8f2"></tspan></text>
+<text x="0" y="394" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#ff4689" font-weight="bold">$&#160;</tspan><tspan fill="#f8f8f2">echo</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#f8f8f2">$technologies</tspan><tspan fill="#f8f8f2"></tspan></text>
 <text x="0" y="415" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">c&#160;c++&#160;python&#160;linux&#160;git</tspan></text>
 <text x="0" y="436" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
 <text x="0" y="457" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#ff4689" font-weight="bold">$&#160;</tspan><tspan fill="#f8f8f2">printenv</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#f8f8f2">|</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#f8f8f2">grep</tspan><tspan fill="#f8f8f2">&#160;</tspan><tspan fill="#f8f8f2">CONTACT</tspan><tspan fill="#f8f8f2"></tspan></text>
-<text x="0" y="478" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">CONTACT_MAIL=abdulhaseeb.8j@gmail.com</tspan></text>
-<text x="0" y="499" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">CONTACT_DISCORD=kxmtkw</tspan></text>
-<text x="0" y="520" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">CONTACT_INSTA=haseebyii</tspan></text>
+<text x="0" y="478" xml:space="preserve"><tspan fill="#f8f8f2"></tspan><tspan fill="#66d9ef">CONTACT_MAIL&#160;&#160;&#160;&#160;=&#160;abdulhaseeb.8j@gmail.com</tspan></text>
+<text x="0" y="499" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">CONTACT_DISCORD&#160;=&#160;kxmtkw</tspan></text>
+<text x="0" y="520" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">CONTACT_INSTA&#160;&#160;&#160;=&#160;haseebyii</tspan></text>
 <text x="0" y="541" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef"></tspan></text>
 <text x="0" y="562" xml:space="preserve"><tspan fill="#66d9ef"></tspan><tspan fill="#66d9ef">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan></text>
 <text x="0" y="583" xml:space="preserve"><tspan fill="#66d9ef"></tspan></text></g></svg>

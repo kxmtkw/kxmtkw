@@ -9,7 +9,11 @@ techs     = [str(t) for t in generator.technologies()]
 
 
 contact_dict = generator.contactInfo()
-contact_rows = [f"CONTACT_{str(key).upper()}={str(val)}" for key, val in contact_dict.items()]
+longest_key = max([len(key) for key in contact_dict.keys()])
+contact_rows = [
+    f'CONTACT_{str(key).upper():<{longest_key}} = {val}'
+    for key, val in contact_dict.items()
+]
 
 delimiter = ",\n            "
 readme = f"""
@@ -26,7 +30,7 @@ $ ls -1 hobbies
 $ ls -1 expertise
 {'\n'.join(expertise)}
 
-$ echo "${{technologies[@]}}"
+$ echo $technologies
 {' '.join(techs)}
 
 $ printenv | grep CONTACT
