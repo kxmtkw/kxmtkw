@@ -2,8 +2,9 @@ import generator
 
 
 age = generator.age()
-hobbies   = [str(h) for h in generator.hobbies()]
-expertise = [str(e) for e in generator.expertise()]
+location = generator.location()
+hobbies   = [f"- {str(h)}" for h in generator.hobbies()]
+expertise = [f"- {str(e)}" for e in generator.expertise()]
 techs     = [str(t) for t in generator.technologies()]
 
 
@@ -12,13 +13,14 @@ contact_rows = [f"CONTACT_{str(key).upper()}={str(val)}" for key, val in contact
 
 delimiter = ",\n            "
 readme = f"""
-haseeb@host $ whoami
+$ whoami
 haseeb
 
-haseeb@host $ cat age.txt
-{age}
+$ cat info.txt
+Age:       {age}
+Location:  {location}
 
-haseeb@host $ ls hobbies
+haseeb@host $ ls -1 hobbies
 {'\n'.join(hobbies)}
 
 haseeb@host $ ls technologies
@@ -31,21 +33,7 @@ haseeb@host $ printenv | grep CONTACT
 {'\n'.join(contact_rows)}
 	"""
 
-readme = """
-haseeb@host $ fastfetch --profile
-  /\\_/\\     haseeb@host
- ( o.o )    -----------
-  > ^ <     OS         : Arch Linux x86_64
-            Age        : 18 Years
-            Focus      : Low-level programming, Systems design
-            Tech Stack : C, C++, Python, Linux, Git
-            Hobbies    : Computers, Chess, Eating
 
-            [CONTACTS]
-            Email      : abdulhaseeb.8j@gmail.com
-            Discord    : kxmtkw
-            Instagram  : haseebolall
-"""
 import os
 
 if os.path.exists("profileA.svg"):

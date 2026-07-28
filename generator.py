@@ -17,6 +17,7 @@ def age() -> str:
     return f"{span.years} Years, {span.months} Month{'s' if span.months != 1 else ''}, {span.days} Day{'s' if span.days != 1 else ''}"
 
 
+
 _data: dict | None = None
 def getData() -> dict:
     global _data
@@ -33,6 +34,9 @@ def getData() -> dict:
     _data = data
 
     return data
+
+def location() -> str:
+    return getData().get("location", "Unknown")
     
 
 def expertise() -> list[str]:
