@@ -15,22 +15,23 @@ delimiter = ",\n            "
 readme = f"""
 $ whoami
 haseeb
-
+󰙅
 $ cat info.txt
 Age:       {age}
 Location:  {location}
 
-haseeb@host $ ls -1 hobbies
+$ ls -1 hobbies
 {'\n'.join(hobbies)}
 
-haseeb@host $ ls technologies
-{' '.join(techs)}
-
-haseeb@host $ ls expertise
+$ ls -1 expertise
 {'\n'.join(expertise)}
 
-haseeb@host $ printenv | grep CONTACT
+$ ls technologies
+{' '.join(techs)}
+
+$ printenv | grep CONTACT
 {'\n'.join(contact_rows)}
+
 	"""
 
 
