@@ -8,16 +8,6 @@ from pygments.lexers.data import YamlLexer
 from pygments.formatters import SvgFormatter
 
 
-def age() -> str:
-    birthday = datetime(2008, 7, 8)
-    today = datetime.now()
-
-    span = relativedelta(today, birthday)
-
-    return f"{span.years} Years, {span.months} Month{'s' if span.months != 1 else ''}, {span.days} Day{'s' if span.days != 1 else ''}"
-
-
-
 _data: dict | None = None
 def getData() -> dict:
     global _data
@@ -35,9 +25,23 @@ def getData() -> dict:
 
     return data
 
+def name() -> str:
+    return getData().get("name", "Unknown")
+
+
 def location() -> str:
     return getData().get("location", "Unknown")
     
+
+def age() -> str:
+    birthday_raw = getData().get("birthday", [0, 0, 0])
+    birthday = datetime(birthday_raw[0], birthday_raw[1], birthday_raw[2])
+    today = datetime.now()
+
+    span = relativedelta(today, birthday)
+
+    return f"{span.years} Years, {span.months} Month{'s' if span.months != 1 else ''}, {span.days} Day{'s' if span.days != 1 else ''}"
+
 
 def expertise() -> list[str]:
     return getData().get("expertise", [])
