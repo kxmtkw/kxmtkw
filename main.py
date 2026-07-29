@@ -1,6 +1,4 @@
 import generator
-
-age = generator.age()
 hobbies = generator.hobbies()
 expertise = generator.expertise()
 techs = generator.technologies()
@@ -18,7 +16,7 @@ fmt_contacts = "\n".join(
 readme = f"""# Profile
 profile:
     name     : {generator.name()}
-    age      : {age}
+    age      : {generator.age()}
     location : {generator.name()}
 
 # Hobbies

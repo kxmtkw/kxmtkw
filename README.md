@@ -1,1 +1,1 @@
-<img src="profile1.svg" width="420" height="744" alt="Github Profile">
+<img src="profile2.svg" width="420" height="744" alt="Github Profile">
