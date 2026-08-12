@@ -17,7 +17,7 @@ readme = f"""# Profile
 profile:
     name     : {generator.name()}
     age      : {generator.age()}
-    location : {generator.name()}
+    location : {generator.location()}
 
 # Hobbies
 hobbies:
