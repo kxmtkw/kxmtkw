@@ -20,15 +20,15 @@ def generateReadmeContent() -> str:
 	contacts_dict = data.contactInfo()
 	longest_contact_key = max(len(key) for key in contacts_dict.keys())
 	contacts = "\n".join(
-		f"  {key:<{longest_contact_key}} : {val}" for key, val in contacts_dict.items()
+		f"    {key:<{longest_contact_key}} : {val}" for key, val in contacts_dict.items()
 	)
 
 	readme = f"""# Profile
 profile:
-	name     : {data.name()}
-	age      : {data.age()}
-	location : {data.location()}
-	role     : {data.role()}
+    name     : {data.name()}
+    age      : {data.age()}
+    location : {data.location()}
+    role     : {data.role()}
 
 # Hobbies
 hobbies:
@@ -40,9 +40,9 @@ expertise:
 
 # Stuff I use
 technologies:
-	- os        : {os}
-	- languages : {languages}
-	- tools     : {tools}
+    - os        : {os}
+    - languages : {languages}
+    - tools     : {tools}
 
 # Communications
 contacts:
