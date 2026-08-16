@@ -62,7 +62,7 @@ def generateReadmeSVG(readme: str, svg: str):
 	height = readme.count('\n') * 22
 	width = max(len(h) for h in readme.splitlines()) * 10
 		
-	readme_content = f'<img src="{svg}" width="{width}" height="{height}" alt="Github Profile">'
+	readme_content = f'<img src="{svg}" width="{width}" height="{height}" alt="If you see this, then the readme svg has not loaded yet. Please wait :)">'
 
 	with open(svg, "w") as f:
 		f.write(readme_content)
