@@ -48,7 +48,7 @@ else:
 
 
 time = time.time()
-svg = f"profile/{time}.svg"
+svg = f"profile/{int(time)}.svg"
 
 generator.makeReadme(readme, svg, "README.md")	
 generator.pushToGithub()
