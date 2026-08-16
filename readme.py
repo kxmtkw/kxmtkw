@@ -24,30 +24,30 @@ def generateReadmeContent() -> str:
 	)
 
 	readme = f"""# Profile
-	profile:
-		name     : {data.name()}
-		age      : {data.age()}
-		location : {data.location()}
-		role     : {data.role()}
+profile:
+	name     : {data.name()}
+	age      : {data.age()}
+	location : {data.location()}
+	role     : {data.role()}
 
-	# Hobbies
-	hobbies:
-	{hobbies}
+# Hobbies
+hobbies:
+{hobbies}
 
-	# Focus & Skills
-	expertise:
-	{expertise}
+# Focus & Skills
+expertise:
+{expertise}
 
-	# Stuff I use
-	technologies:
-		- os        : {os}
-		- languages : {languages}
-		- tools     : {tools}
+# Stuff I use
+technologies:
+	- os        : {os}
+	- languages : {languages}
+	- tools     : {tools}
 
-	# Communications
-	contacts:
-	{contacts}
-	"""
+# Communications
+contacts:
+{contacts}
+"""
 
 	return readme
 
