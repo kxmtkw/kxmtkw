@@ -10,6 +10,7 @@ def getData() -> dict:
 	if _data: return _data
 
 	try:
+		print(f"* Loading data...")
 		with open("data.json") as file:
 			data = json.load(file)
 	except (FileNotFoundError, json.JSONDecodeError):

@@ -10,6 +10,8 @@ import data
 
 def generateReadmeContent() -> str:
 
+	print(f"* Making readme...")
+
 	hobbies = "\n".join(f"    - {h}" for h in data.hobbies())
 	expertise = "\n".join(f"    - {e}" for e in data.expertise())
 
@@ -58,6 +60,8 @@ contacts:
 
 def generateReadmeSVG(readme: str, svg: str):
 
+	print(f"* Generating svg...")
+
 	formatter = SvgFormatter(style="monokai", fontfamily="Iosevka", fontsize="16", line_height=1)
 
 	with open(svg, "w") as f:
@@ -86,5 +90,9 @@ def make():
 	svg = f"profile/{int(current_time)}.svg"
 
 	readme = generateReadmeContent()
+
+	print("-"*40)
 	print(readme)
+	print("-"*40)
+
 	generateReadmeSVG(readme, svg)
