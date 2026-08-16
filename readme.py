@@ -82,4 +82,5 @@ def make():
 	svg = f"profile/{int(current_time)}.svg"
 
 	readme = generateReadmeContent()
+	print(readme)
 	generateReadmeSVG(readme, svg)
