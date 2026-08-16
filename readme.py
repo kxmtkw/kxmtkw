@@ -14,7 +14,7 @@ def generateReadmeContent() -> str:
 	expertise = "\n".join(f"    - {e}" for e in data.expertise())
 
 	os = data.technologiesOS()
-	languages = f"[{', '.join(data.technologiesLanguages())}]"
+	languages = f"[ {', '.join(data.technologiesLanguages())} ]"
 	tools = f"[{', '.join(data.technologiesTools())}]"
 
 	contacts_dict = data.contactInfo()
