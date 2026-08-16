@@ -15,7 +15,7 @@ def generateReadmeContent() -> str:
 
 	os = data.technologiesOS()
 	languages = f"{', '.join(data.technologiesLanguages())}"
-	tools = f"[{', '.join(data.technologiesTools())}]"
+	tools = f"{', '.join(data.technologiesTools())}"
 
 	contacts_dict = data.contactInfo()
 	longest_contact_key = max(len(key) for key in contacts_dict.keys())
