@@ -2,6 +2,7 @@
 	"name": "A. Haseeb Khalid",
 	"location": "Lahore, Pakistan",
 	"birthday": [2008, 7, 8],
+	"role": "CS Student at FAST NUCES Lahore",
 	"hobbies": [
 		"Learning about computers",
 		"Professionally losing in Chess",
@@ -12,12 +13,17 @@
 		"Systems design and architecture",
 		"Automating stuff because I'm lazy"
 	],
-	"technologies": [
+	"technologies.os": "linux",
+	"technologies.languages": [
 		"c",
 		"c++",
 		"python",
-		"linux",
-		"git"
+		"bash (a little bit)"
+	],
+	"technologies.tools": [
+		"git",
+		"vscode",
+		"hyprland"
 	],
 	"contactInfo": {
 		"mail"    : "abdulhaseeb.8j@gmail.com",
