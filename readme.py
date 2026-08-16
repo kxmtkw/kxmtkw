@@ -23,28 +23,32 @@ def generateReadmeContent() -> str:
 		f"    {f'{key}:':<{longest_contact_key}} {val}" for key, val in contacts_dict.items()
 	)
 
-	readme = f"""# Profile
+	readme = f"""# About me
 profile:
     - name:      {data.name()}
     - age:       {data.age()}
     - location:  {data.location()}
     - role:      {data.role()}
 
-# Hobbies
+	
+# Stuff I do for fun
 hobbies:
 {hobbies}
 
-# Focus & Skills
+
+# I can do these
 expertise:
 {expertise}
 
-# Stuff I use
+
+# I use these
 technologies:
     - os:         {os}
     - languages:  {languages}
     - tools:      {tools}
 
-# Communications
+	
+# If you want to get in contact with me for some reason
 contacts:
 {contacts}
 """
