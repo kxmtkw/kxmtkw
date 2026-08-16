@@ -64,7 +64,7 @@ def generateReadmeSVG(readme: str, svg: str):
 		
 	readme_content = f'<img src="{svg}" width="{width}" height="{height}" alt="If you see this, then the readme svg has not loaded yet. Please wait :)">'
 
-	with open(svg, "w") as f:
+	with open("README.md", "w") as f:
 		f.write(readme_content)
 
 
