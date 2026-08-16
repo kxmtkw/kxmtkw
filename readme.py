@@ -25,10 +25,10 @@ def generateReadmeContent() -> str:
 
 	readme = f"""# Profile
 profile:
-    name     : {data.name()}
-    age      : {data.age()}
-    location : {data.location()}
-    role     : {data.role()}
+    - name     : {data.name()}
+    - age      : {data.age()}
+    - location : {data.location()}
+    - role     : {data.role()}
 
 # Hobbies
 hobbies:
