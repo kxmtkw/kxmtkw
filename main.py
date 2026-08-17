@@ -1,8 +1,14 @@
 import subprocess
 import readme
+import sys
+
 
 def pushToGithub():
-	commit = input("> Enter Commit Message: ")
+
+	if len(sys.argv) > 1 and sys.argv[1] == 'manual':
+		commit = input("> Enter Commit Message: ")
+	else:
+		commit = "manual"
 
 	print("* Pushing to github...")
 
