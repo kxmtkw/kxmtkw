@@ -58,8 +58,7 @@ contacts:
 {contacts}
 
 
-# Last updated at: {today}
-"""
+# Last updated at: {today}"""
 
 	return readme
 
