@@ -1,3 +1,4 @@
+from datetime import datetime
 import time
 from pathlib import Path
 
@@ -24,6 +25,8 @@ def generateReadmeContent() -> str:
 	contacts = "\n".join(
 		f"    {f'{key}:':<{longest_contact_key}} {val}" for key, val in contacts_dict.items()
 	)
+
+	today = datetime.now().strftime("%d-%B-%Y %I:%M %p")
 
 	readme = f"""# About me
 profile:
@@ -53,6 +56,9 @@ technologies:
 # If you want to get in contact with me for some reason
 contacts:
 {contacts}
+
+
+# Last updated at: {today}
 """
 
 	return readme
